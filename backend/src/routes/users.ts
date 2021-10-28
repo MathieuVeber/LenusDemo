@@ -2,7 +2,7 @@ import Router from "express";
 import { Request, Response } from "express";
 
 import { IUser, User, userValidationSchema } from "../models/users";
-import { ErrorEnum } from "../ErrorType";
+import { ErrorEnum } from "../errors";
 import validate from "../middlewares/validate";
 
 const router = Router();

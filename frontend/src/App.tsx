@@ -1,15 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { Provider } from "react-redux";
+
+import AppLayout from "./AppLayout";
+import { store } from "./utils/store";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome to Lenus Weight Tracker React</p>
-      </header>
-    </div>
+    <Provider store={store}>
+      <AppLayout />
+    </Provider>
   );
 }
 

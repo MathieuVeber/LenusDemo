@@ -2,7 +2,7 @@ import { Response, NextFunction } from "express";
 
 import { InjectedRequest } from "../types";
 import { IUser, User } from "../models/users";
-import { ErrorEnum } from "../ErrorType";
+import { ErrorEnum } from "../errors";
 
 const loadUser = async (
   req: InjectedRequest,

@@ -5,7 +5,7 @@ import { IUser, User } from "../models/users";
 import { measurementValidationSchema } from "../models/measurements";
 import validate from "../middlewares/validate";
 import sameDateCheck from "../middlewares/sameDateCheck";
-import { ErrorEnum } from "../ErrorType";
+import { ErrorEnum } from "../errors";
 
 const router = Router();
 

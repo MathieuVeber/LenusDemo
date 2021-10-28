@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 
 import { IUser, User } from "../models/users";
-import { ErrorEnum } from "../ErrorType";
+import { ErrorEnum } from "../errors";
 import { InjectedRequest } from "../types";
 
 /**
