@@ -3,8 +3,8 @@
 ## Install and run locally
 
 ```
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 ## Environment variables
@@ -12,5 +12,5 @@ npm run dev
 Add a `.env` file with this:
 
 ```
-DATABASE_URL=
+DATABASE_URL=...
 ```
