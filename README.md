@@ -2,7 +2,7 @@
 
 ## Installation
 
-Clone this repo and intall dependencies:
+Clone this repo and install dependencies:
 
 ```
 git clone https://github.com/MathieuVeber/LenusDemo
